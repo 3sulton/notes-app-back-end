@@ -39,3 +39,6 @@ Catatan: Pastikan Anda memasang nanoid dengan versi 3.x.x. Karena jika menggunak
 ERROR CORS
 https://www.dicoding.com/academies/261/discussions/133122
 "C:\Program Files\Google\Chrome\Application\chrome.exe" --user-data-dir="C:/Chrome dev session" --disable-web-security
+
+security group -> firewall, ngatur inbound outbound jaringan. nambahin inbound untuk application port dan ssh port
+ec2 -> bikin instance, bikin keypair buat connect ke instance, network setting pilih dari security group
